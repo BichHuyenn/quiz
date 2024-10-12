@@ -2,7 +2,7 @@ import { Column, Entity, JoinColumn, ManyToOne, PrimaryGeneratedColumn } from "t
 import { QuizEntity } from "./quiz.entity";
 
   
-  @Entity({ name: 'question' })  //({objcect key: 'object value'})
+  @Entity({ name: 'question' })  //({object key: 'object value'})
   export class QuestionEntity {
     @PrimaryGeneratedColumn()
     id: string 
